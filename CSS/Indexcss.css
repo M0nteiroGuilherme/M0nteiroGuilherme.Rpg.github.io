@@ -49,6 +49,7 @@ body{background: #3B4250;}
     position: relative;
     flex-flow: column;
     display: flex;
+    OVERFLOW: auto;
 }
 
 .divRaca, .divClasse{
