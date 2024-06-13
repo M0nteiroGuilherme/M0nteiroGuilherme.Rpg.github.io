@@ -10,7 +10,7 @@ let divItens = document.getElementById('divItens')
 
 let habilidades = document.getElementById('habilidades')
 
-let Olcultismo = document.getElementById('Olcultismo')
+let Ocultismo = document.getElementById('Ocultismo')
 let divOcultista = document.getElementById('divOcultista')
 
 
@@ -18,22 +18,26 @@ raca.addEventListener('click', ()=> {
     divRaca.classList.add('divRacaTrue')
     divClasse.classList.remove('divClasseTrue')
     divItens.classList.remove('divItensTrue')
+    divOcultista.classList.remove('divOcultistaTrue')
 })
 
 classe.addEventListener('click', ()=> {
     divClasse.classList.add('divClasseTrue')
     divRaca.classList.remove('divRacaTrue')
     divItens.classList.remove('divItensTrue')
+    divItens.classList.remove('divItensTrue')
+    divOcultista.classList.remove('divOcultistaTrue')
 })
 
 itens.addEventListener('click', ()=> {
     divItens.classList.add('divItensTrue')
     divRaca.classList.remove('divRacaTrue')
     divClasse.classList.remove('divClasseTrue')
+    divOcultista.classList.remove('divOcultistaTrue')
 })
 
-Olcultismo.addEventListener('click', ()=>{
-    divOcultista.classList.add('divOlcultistaTrue')
+Ocultismo.addEventListener('click', ()=>{
+    divOcultista.classList.add('divOcultistaTrue')
     divRaca.classList.remove('divRacaTrue')
     divClasse.classList.remove('divClasseTrue')
     divItens.classList.remove('divItensTrue')

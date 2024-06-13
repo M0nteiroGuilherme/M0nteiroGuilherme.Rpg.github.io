@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>NIAL</title>
         <link rel="stylesheet" href="CSS/Indexcss.css">
         <script src="JS/Untitled-1.js" defer></script>
 
@@ -16,14 +16,17 @@
             <a href="campanha.html">Campanhas</a>
             <a href="amigos.html">Amigos</a>
             <a href="chat/chat.html">Chat</a>
-                <img id="imgPerfil" src="img/user.png">
+            <img id="imgPerfil" src="chat/img/user.png">
             </header>
         </hender>
         <header class="rpgInfos">
-            <a type="button" value="raça" id="raca">raça</a>
-            <a type="button" value="classe" id="classe">classe</a>
-            <a type="button" value="itens" id="itens">itens</a>
-            <a type="button" value="habilidades" id="habilidades">habilidades</a>
+            <a class="" type="button" value="raça" id="raca">Raça</a>
+            <a class="" type="button" value="classe" id="classe">Classe</a>
+            <a class="" type="button" value="itens" id="itens">Itens</a>
+            <a class="" type="button" value="habilidades" id="habilidades">Habilidades</a>
+            <a class="" type="button"  id="Ocultismo">Ocultista</a>
+            <a class="" type="button"  id="Combatente">Combatente</a>
+            <a class="" type="button"  id="Especialista">Especialista</a>
         </header>
         <div class="divCenter">
             <div class="divRaca" id="divRaca">
@@ -45,15 +48,12 @@
                 <a class="buttonCenter"  id="Bardo">Bardo</a>
                 <a class="buttonCenter"  id="Bruxo">Bruxo</a>
                 <a class="buttonCenter"  id="Clerigo">Clérigo</a>
-                <a class="buttonCenter"  id="Combatente">Combatente</a>
                 <a class="buttonCenter"  id="Druida">Druida</a>
-                <a class="buttonCenter"  id="Especialista">Especialista</a>
                 <a class="buttonCenter"  id="Feiticeiro">Feiticeiro</a>
                 <a class="buttonCenter"  id="Guerreiro">Guerreiro</a>
                 <a class="buttonCenter"  id="Ladino">Ladino</a>
                 <a class="buttonCenter"  id="Mago">Mago</a>
                 <a class="buttonCenter"  id="Monge">Monge</a>
-                <a class="buttonCenter"  id="Ocultita">Ocultita</a>
                 <a class="buttonCenter"  id="Paladino">Paladino</a>
                 <a class="buttonCenter"  id="Patrulheiro">Patrulheiro</a>
 
@@ -62,11 +62,12 @@
             <div class="divItens" id="divItens">
                 <h1>Itens</h1>
                 <a class="buttonCenter" type="button" value="+" id="+">
+                    <input type="text" class="chat__input" placeholder="Adicionar Itens" id="itens_input">
             </div>
 
-            <div id="divOlcultista">
-                <h2>Olcultista</h2>
-                <p>Conduente</p>
+            <div  class="divOcultista" id="divOcultista">
+                <h2>Ocultista</h2>
+                <p>Conduinte</p>
                 <p>Flagelador</p>
                 <p>Graduado</p>
                 <p>Intuitivo</p>
