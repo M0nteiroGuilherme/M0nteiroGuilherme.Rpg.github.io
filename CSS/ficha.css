@@ -1,6 +1,14 @@
 * {margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(../chat/img/WhatsApp\ Image\ 2024-05-30\ at\ 22.34.12.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #f2f2f2;
 }
 
 .mainMenu{
@@ -17,7 +25,7 @@
 }
 .divCenter{
     border-radius: 23px 0px 0px 0px;
-    left: 10vw;
+    left: 20vw;
     top: -100vh;
     position: relative;
     display: flex;
