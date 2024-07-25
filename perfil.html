@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,36 +9,42 @@
 
     <title>Document</title>
 </head>
+
 <body>
     <hender>
         <header class="mainMenu">
-        <a href="fichas.html">fichas</a>
-        <a href="npc.html">NPC</a>
-        <a href="campanha.html">Campanhas</a>
-        <a href="amigos.html">Amigos</a>
-        <a href="chat/chat.html">Chat</a>
-        <img id="imgPerfil" src="chat/img/user.png">
+            <a href="fichas.html">fichas</a>
+            <a href="npc.html">NPC</a>
+            <a href="campanha.html">Campanhas</a>
+            <a href="amigos.html">Amigos</a>
+            <a href="chat/chat.html">Chat</a>
+            <img class="imgPerfil" id="imgPerfil" src="chat/img/user.png">
         </header>
     </hender>
     <header class="rpgInfos">
-        <a class="" type="button" value="raça" id="raca">Raça</a>
-        <a class="" type="button" value="classe" id="classe">Classe</a>
-        <a class="" type="button" value="itens" id="itens">Itens</a>
-        <a class="" type="button" value="habilidades" id="habilidades">Habilidades</a>
-        <a class="" type="button"  id="Ocultismo">Ocultista</a>
-        <a class="" type="button"  id="Combatente">Combatente</a>
-        <a class="" type="button"  id="Especialista">Especialista</a>
+        <h1 class="confiTitle">Configurações</h1>
+        <a class="BNTConfigui" type="button" value="minha conta" id="minha conta">minha conta</a>
+        <a class="BNTConfigui" type="button" value="Privacidade" id="Privacidade">Privacidade</a>
     </header>
-    <div class="divCenter"> 
+    <div class="divCenter">
         <div class="divBanner"></div>
         <div class="contentPerfil">
             <form>
                 <div class="imgUploud">
-                    <img  id="imagemPreview" class="perfilImg" src="chat/img/user.png"></div>
-                    <input id="imagemField" type="file">
+                    <img editPerfil="true" id="imagemPreview" class="perfilImg" src="chat/img/user.png">
                 </div>
             </form>
+            <div class="divPerfilButton">
+                <input id="imagemField" type="file">
+                <label for="usuario"> nome do usuário</label>
+                <input id="usuario" type="text" name="usuario" placeholder="Usuário">
+                <label for="sobre">sobre mim</label>
+                <textarea name="sobre" id="sobre">Sou usuário da NIAL</textarea>
+            </div>
+            <button id="saveButton">Salvar</button>
         </div>
     </div>
+    </div>
 </body>
+
 </html>
