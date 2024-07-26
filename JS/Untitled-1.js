@@ -42,3 +42,6 @@ Ocultismo.addEventListener('click', ()=>{
     divClasse.classList.remove('divClasseTrue')
     divItens.classList.remove('divItensTrue')
 })
+
+//--------------localStorage--------------//
+document.getElementById("imgPerfil").src = localStorage.getItem("editPerfil")

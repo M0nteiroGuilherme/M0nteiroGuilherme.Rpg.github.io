@@ -11,3 +11,6 @@ document.getElementById("butao").addEventListener("click", function() {
         button.style.display = "block"; 
     }
 });
+
+//--------------localStorage--------------//
+document.getElementById("imgPerfil").src = localStorage.getItem("editPerfil")
